@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2024-02-06T18:28:22.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6BK2qjDeKVYLWjpkQZnk" version="23.0.2" type="device">
+  <diagram name="Страница — 1" id="RV7DxXAJv7ZC5TIrA6_6">
+    <mxGraphModel dx="1034" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OCvcWKF98b-1Kgt-m-t2-1" target="OCvcWKF98b-1Kgt-m-t2-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-1" value="начало&lt;br&gt;CoordNormalize" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OCvcWKF98b-1Kgt-m-t2-2" target="OCvcWKF98b-1Kgt-m-t2-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-2" value="присвоить x1 значение len * 0.8 + x1_mod" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OCvcWKF98b-1Kgt-m-t2-4" target="OCvcWKF98b-1Kgt-m-t2-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-4" value="присвоить x2 значение len * 1.3 + x2_mod" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-6" value="присвоить x3 значение len * 1.8 + x3_mod" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="OCvcWKF98b-1Kgt-m-t2-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="420" y="430" />
+              <mxPoint x="420" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OCvcWKF98b-1Kgt-m-t2-10" target="OCvcWKF98b-1Kgt-m-t2-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-10" value="присвоить y1 значение len + y1_mod" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OCvcWKF98b-1Kgt-m-t2-12" target="OCvcWKF98b-1Kgt-m-t2-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-12" value="присвоить y2 значение len * 0.134 + y2_mod" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OCvcWKF98b-1Kgt-m-t2-13" target="OCvcWKF98b-1Kgt-m-t2-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-13" value="присвоить y3 значение len + y3_mod" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OCvcWKF98b-1Kgt-m-t2-14" value="конец&lt;br&gt;CoordNormalize" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

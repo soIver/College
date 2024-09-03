@@ -1,0 +1,167 @@
+object Form1: TForm1
+  Left = 406
+  Height = 750
+  Top = 162
+  Width = 1250
+  Caption = 'Калькулятор объёма фигур'
+  ClientHeight = 750
+  ClientWidth = 1250
+  Constraints.MaxHeight = 750
+  Constraints.MaxWidth = 1250
+  Constraints.MinHeight = 750
+  Constraints.MinWidth = 1250
+  DesignTimePPI = 144
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 168
+    Height = 81
+    Top = 24
+    Width = 946
+    Caption = '✨Калькулятор объёма фигур✨'
+    Font.Height = -60
+    Font.Name = 'Yu Gothic UI Semibold'
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 110
+    Top = 152
+    Width = 336
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Что будем калькулировать?'
+    Font.Height = -40
+    ParentFont = False
+    WordWrap = True
+  end
+  object SphereBtn: TButton
+    Left = 32
+    Height = 72
+    Top = 304
+    Width = 336
+    Caption = 'Шар'
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 0
+    OnClick = SphereBtnClick
+  end
+  object WideCubeBtn: TButton
+    Left = 32
+    Height = 72
+    Top = 640
+    Width = 336
+    Caption = 'Параллелепипед'
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 1
+    OnClick = WideCubeBtnClick
+  end
+  object PyramidBtn: TButton
+    Left = 32
+    Height = 72
+    Top = 528
+    Width = 336
+    Caption = 'Пирамида'
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 2
+    OnClick = PyramidBtnClick
+  end
+  object ConeBtn: TButton
+    Left = 32
+    Height = 72
+    Top = 416
+    Width = 336
+    Caption = 'Конус'
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 3
+    OnClick = ConeBtnClick
+  end
+  object aEdit: TEdit
+    Left = 424
+    Height = 72
+    Top = 304
+    Width = 384
+    AutoSize = False
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 4
+    TextHint = 'Радиус'
+    Visible = False
+    OnKeyPress = aEditKeyPress
+  end
+  object Label3: TLabel
+    Left = 424
+    Height = 110
+    Top = 152
+    Width = 384
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Из чего будем калькулировать?'
+    Font.Height = -40
+    ParentFont = False
+    WordWrap = True
+  end
+  object Label4: TLabel
+    Left = 864
+    Height = 110
+    Top = 152
+    Width = 360
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'И что мы накалькулировали?'
+    Font.Height = -40
+    ParentFont = False
+    WordWrap = True
+  end
+  object CalculateBtn: TButton
+    Left = 864
+    Height = 72
+    Top = 304
+    Width = 360
+    Caption = 'Узнать сейчас!'
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 5
+    OnClick = CalculateBtnClick
+  end
+  object Answer: TLabel
+    Left = 864
+    Height = 296
+    Top = 416
+    Width = 360
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Здесь мог бы быть ваш результат'
+    Font.Height = -40
+    ParentFont = False
+    WordWrap = True
+  end
+  object bEdit: TEdit
+    Left = 424
+    Height = 72
+    Top = 416
+    Width = 384
+    AutoSize = False
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 6
+    TextHint = 'Радиус'
+    Visible = False
+    OnKeyPress = bEditKeyPress
+  end
+  object cEdit: TEdit
+    Left = 424
+    Height = 72
+    Top = 528
+    Width = 384
+    AutoSize = False
+    Font.Height = -40
+    ParentFont = False
+    TabOrder = 7
+    TextHint = 'Радиус'
+    Visible = False
+    OnKeyPress = cEditKeyPress
+  end
+end
